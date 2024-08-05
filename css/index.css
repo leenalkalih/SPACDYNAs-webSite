@@ -1,0 +1,30 @@
+nav ul>li a{
+   
+}
+.serv{
+    gap: 20px;
+   
+}
+.box{ transition: 0.5s;}
+.serv .box:hover{
+    transform: scale(1.1);
+}
+.gray{
+    color: gray;
+}
+.attain{
+    font-size: 25px;
+    box-shadow: 2px 2px 10px 1px #0095ed99;
+    padding: 10px;
+    font-weight: bold;
+    text-shadow: 0px 1px 2px black;
+
+}
+.progress{
+    height: 10px !important;
+}
+@media (max-width:500px) {
+    .img1{
+        display: none;
+    }
+}
